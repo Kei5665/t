@@ -26,8 +26,14 @@ gem 'jbuilder', '~> 2.5'
 gem 'slim-rails' #slim-railsの導入
 gem 'html2slim' #既存のerbやhtmlファイルをslimに変える
 
-gem 'rubocop' #rubocopの導入
-gem 'rubocop-rails'
+group 'development' do
+  gem 'rubocop' #rubocopの導入
+  gem 'rubocop-rails'
+  gem 'better_errors' #デフォルトのエラー画面をわかりやすく成形してくれる
+  gem 'binding_of_caller' #エラー画面にirbをつけてくれる
+  gem 'pry-byebug' #バグを修正するためのツール
+  gem 'pry-rails' #Rails用に使われるデバックツール
+end
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
