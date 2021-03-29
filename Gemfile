@@ -29,6 +29,7 @@ gem 'html2slim' #既存のerbやhtmlファイルをslimに変える
 gem 'sorcery' #ユーザ認証機能を簡単に実装できるライブラリ
 gem 'redis-rails'
 gem 'annotate'
+gem 'rails-i18n', '~> 5.1' #日本語化
 
 group 'development' do
   gem 'rubocop' #rubocopの導入
