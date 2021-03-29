@@ -25,7 +25,10 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'slim-rails' #slim-railsの導入
 gem 'html2slim' #既存のerbやhtmlファイルをslimに変える
-# Reduces boot times through caching; required in config/boot.rb
+
+gem 'rubocop' #rubocopの導入
+gem 'rubocop-rails'
+
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
