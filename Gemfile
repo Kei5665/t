@@ -26,6 +26,10 @@ gem 'jbuilder', '~> 2.5'
 gem 'slim-rails' #slim-railsの導入
 gem 'html2slim' #既存のerbやhtmlファイルをslimに変える
 
+gem 'sorcery' #ユーザ認証機能を簡単に実装できるライブラリ
+gem 'redis-rails'
+gem 'annotate'
+
 group 'development' do
   gem 'rubocop' #rubocopの導入
   gem 'rubocop-rails'
